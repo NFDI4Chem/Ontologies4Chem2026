@@ -1,8 +1,8 @@
 body:
-- type: markdown
+- type: textarea
   attributes:
     label: Context
-    value: |
+    description: |
       "Describe the background and motivation for the task. Include: 
         - Why this topic matters
         - Existing efforts, discussions, or prior workshops
@@ -10,10 +10,10 @@ body:
         - Links to supporting material (if applicable)"
   validations:
     required: true
-- type: markdown
+- type: textarea
   attributes:
     label: Expected outcome of the workshop
-    value: |
+    description: |
       "What should be achieved by the end of the workshop session? E.g. 
         - Prototype, draft, or proof of concept
         - Agreed modelling pattern or methodology
@@ -21,10 +21,10 @@ body:
         - Mappings or alignments between ontologies/systems"
   validations:
     required: true
-- type: markdown
+- type: textarea
   attributes:
     label: Prerequisites issues/tasks
-    value: |
+    description: |
       "What needs to be done before the workshop to make the session productive? Possible items:
         - Gather input from stakeholders or prior working groups
         - Prepare datasets, APIs, or resources
@@ -32,10 +32,10 @@ body:
         - Conduct background analysis (e.g. gap analysis, review existing ontologies)"
   validations:
     required: true
-- type: markdown
+- type: textarea
   attributes:
     label: Implementation issues/tasks
-    value: |
+    description: |
       "Concrete activities participants will work on, such as: 
         - Build or prototype taxonomies/ontologies
         - Align terms or concepts with upper ontologies (e.g. BFO)
