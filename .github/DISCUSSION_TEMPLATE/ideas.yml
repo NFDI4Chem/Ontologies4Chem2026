@@ -2,7 +2,7 @@ body:
 - type: markdown
   attributes:
     label: Context
-    description: |
+    value: |
       "Describe the background and motivation for the task. Include: 
         - Why this topic matters
         - Existing efforts, discussions, or prior workshops
@@ -13,7 +13,7 @@ body:
 - type: markdown
   attributes:
     label: Expected outcome of the workshop
-    description: |
+    value: |
       "What should be achieved by the end of the workshop session? E.g. 
         - Prototype, draft, or proof of concept
         - Agreed modelling pattern or methodology
@@ -24,7 +24,7 @@ body:
 - type: markdown
   attributes:
     label: Prerequisites issues/tasks
-    description: |
+    value: |
       "What needs to be done before the workshop to make the session productive? Possible items:
         - Gather input from stakeholders or prior working groups
         - Prepare datasets, APIs, or resources
@@ -35,7 +35,7 @@ body:
 - type: markdown
   attributes:
     label: Implementation issues/tasks
-    description: |
+    value: |
       "Concrete activities participants will work on, such as: 
         - Build or prototype taxonomies/ontologies
         - Align terms or concepts with upper ontologies (e.g. BFO)
