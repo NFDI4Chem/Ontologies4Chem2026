@@ -3,7 +3,7 @@ body:
   attributes:
     label: Context
     description: |
-      "Describe the background and motivation for the task. Include: 
+      "Describe the background and motivation for the "hacking" task or talk. Include: 
         - Why this topic matters
         - Existing efforts, discussions, or prior workshops
         - Relevant tools, standards, or datasets
@@ -18,7 +18,8 @@ body:
         - Prototype, draft, or proof of concept
         - Agreed modelling pattern or methodology
         - Defined terminology or ontology structure
-        - Mappings or alignments between ontologies/systems"
+        - Mappings or alignments between ontologies/systems
+        - discussion of previously done work to get feedback from the community and decide next steps"
   validations:
     required: true
 - type: textarea
@@ -36,10 +37,13 @@ body:
   attributes:
     label: Implementation issues/tasks
     description: |
-      "Concrete activities participants will work on, such as: 
+      "Concrete activities the workshop participants will work on during the workshop, such as: 
         - Build or prototype taxonomies/ontologies
         - Align terms or concepts with upper ontologies (e.g. BFO)
         - Develop patterns, mappings, or ingestion workflows
-        - Experiment with tools (e.g. APIs, triple stores, pipelines)"
+        - Experiment with tools (e.g. APIs, triple stores, pipelines)
+      If the proposal is intended to be 'just' a talk:
+        - How much time do you need for your talk and how much for the subsequent discussion?
+        - Should there be an interactive feeback part (e.g. Mentimeter)?"
   validations:
     required: true
